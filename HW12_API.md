@@ -16,7 +16,8 @@
 | `ProductChangeLog` | Хранение истории изменений кредитных продуктов с информацией о выполненных изменениях, пользователе и времени изменения | Продуктовый сервис |
 
 
-# 2-3 Задания находятся в документе по ссылке - https://docs.google.com/spreadsheets/d/1F0D8QvCNDxRTz-WjFamWa1nJeZVAlLKS8tSTz1W0Ak0/edit?gid=945495619#gid=945495619
+# 2-3 Задания находятся в документе по ссылке - 
+## [Тут](https://docs.google.com/spreadsheets/d/1F0D8QvCNDxRTz-WjFamWa1nJeZVAlLKS8tSTz1W0Ak0/edit?usp=sharing)
 
 # 4. Изменение ресурса
 
