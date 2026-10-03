@@ -62,7 +62,7 @@
 
 #### Запрос при согласии клиента
 
-```json
+``` json
 {
 "isTermsAccepted": true,
 "claimId": "101"
@@ -71,7 +71,10 @@
 {
   "isTermsAccepted": false,
   "claimId": "102"
-}
+} 
+
+```
+
 
 ## Критерии приёмки
 
