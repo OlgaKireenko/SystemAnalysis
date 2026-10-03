@@ -70,3 +70,8 @@
 "isTermsAccepted": true,
 "claimId": "101"
 }
+
+{
+  "isTermsAccepted": false,
+  "claimId": "102"
+}
