@@ -262,6 +262,12 @@ MyId - сервис удалённой идентификации
 
 # 4. BPMN to BE
 
+https://drive.google.com/file/d/11fM2B3gycHCzri2XkKmKhJ7wfLMAkeAB/view?usp=sharing
+
+
+<img width="696" height="531" alt="image" src="https://github.com/user-attachments/assets/5b715b64-a41c-4baf-b034-e69d213d2653" />
+
+
 
 
 
