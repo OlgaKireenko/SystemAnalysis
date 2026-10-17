@@ -296,10 +296,11 @@ https://docs.google.com/spreadsheets/d/13xONBi4VpgTk-km_EopOMs9cVQDfujVFjEFqpuSQ
 
 # 6. Sequence Diagram
 
-<img width="597" height="780" alt="image" src="https://github.com/user-attachments/assets/769bae42-c800-4de1-8d30-369376670494" />
+<img width="595" height="460" alt="image" src="https://github.com/user-attachments/assets/895ed4a6-4189-4c69-937b-9f984edded20" />
 
 
-#7. ER диаграмма оформления микрозайма
+
+# 7. ER диаграмма оформления микрозайма
 
 
 <img width="511" height="462" alt="image" src="https://github.com/user-attachments/assets/16dcb995-b82b-4a27-ad33-dd15bbab358d" />
