@@ -324,7 +324,7 @@ https://docs.google.com/spreadsheets/d/13xONBi4VpgTk-km_EopOMs9cVQDfujVFjEFqpuSQ
 |---|---|---|---|---|---|
 | 1 | Create claim | `POST` | `/v1/claims` | Создание заявки на микрозайм | Мобильное приложение |
 | 2 | Get claim | `GET` | `/v1/claims/{claimId}` | Получение деталей и текущего статуса заявки | Мобильное приложение |
-| 3 | Get claims | `GET` | `/v1/claims` | Получение списка заявок для бизнеса | Рабочее место сотрудника / бизнес-система |
+
 
 В API используется ресурс `claims`, представляющий заявки на микрозайм.
 
@@ -387,6 +387,13 @@ https://docs.google.com/spreadsheets/d/13xONBi4VpgTk-km_EopOMs9cVQDfujVFjEFqpuSQ
 | `consent.consentReceived` | Да | Boolean | Признак подтверждения согласия. Для создания заявки значение должно быть `true` |
 | `consent.consentData` | Да | String | Дата получения согласия в формате `YYYY-MM-DD` |
 
+**Описание полей Response:**
+
+| Название поля | Обязательность | Тип данных | Описание |
+|---|---|---|---|
+| `claimId` | Да | Integer | Уникальный идентификатор созданной заявки, присвоенный сервером |
+
+
 ### Основные ошибочные ответы
 
 | HTTP status | Код ошибки | Описание |
@@ -436,7 +443,7 @@ GET /v1/claims/741
   "claimId": 741,
   "status": "under_review",
   "requestedAmount": 5000000,
-  "termDays": 30,
+  "termMonth": 12,
   "createdAt": "2026-10-11T10:30:00Z",
   "updatedAt": "2026-10-11T10:35:00Z",
   "decision": null,
@@ -447,15 +454,15 @@ GET /v1/claims/741
 | Поле | Тип | Описание |
 |---|---|---|
 | `claimId` | integer | Идентификатор заявки |
-| `status` | string | Текущий статус заявки |
+| `status` | string {enum} | Текущий статус заявки |
 | `requestedAmount` | integer | Запрашиваемая сумма |
-| `termDays` | integer | Срок займа в днях |
+| `termDays` | integer | Срок займа в месяцах |
 | `createdAt` | string, date-time | Дата и время создания заявки |
 | `updatedAt` | string, date-time | Дата и время последнего изменения |
 | `decision` | string или null | Результат рассмотрения заявки, если определён |
 | `rejectionReason` | string или null | Причина отказа, если применимо и разрешено для отображения |
 
-Предполагаемые значения `status`: `created`, `under_review`, `approved`, `rejected`, `additional_review`.
+Предполагаемые значения `status` enum: `created`, `under_review`, `approved`, `rejected`, `additional_review`.
 
 ### Основные ошибочные ответы
 
