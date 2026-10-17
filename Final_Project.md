@@ -288,6 +288,11 @@ https://docs.google.com/spreadsheets/d/13xONBi4VpgTk-km_EopOMs9cVQDfujVFjEFqpuSQ
 
 
 
+# 6. Sequence Diagram
+
+<img width="597" height="780" alt="image" src="https://github.com/user-attachments/assets/769bae42-c800-4de1-8d30-369376670494" />
+
+
 
 
 
